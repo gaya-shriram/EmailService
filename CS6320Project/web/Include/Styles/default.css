@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 21, 2016, 12:16:13 AM
+    Author     : Gaya
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-style: italic;
+    background : url(email7.jpeg);
+}
+
+
+
+h1{
+    color: rgb(3, 3, 3);
+    font-family: verdana;
+    font-size: 300%;
+    
+}
+p{
+    color: rgb(3, 3, 3);
+}
+label{
+    color: rgb(3, 3, 3);
+    float: left;
+    width: 200px;
+    margin-bottom: 0.5em;
+}
+
+#fname_err_lbl{
+    color: red;
+    width: 400px;
+    font-size: 10pt;
+}
+
+#lname_err_lbl{
+    color: red;
+    width: 400px;
+    font-size: 10pt;
+}
+
+#email_err_lbl{
+    color: red;
+    width: 400px;
+    font-size: 10pt;
+}
+
+input[type="text"], input[type="email"]{
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br{
+    clear: both;
+}
+#submit{
+    margin-left: 5em;
+}
+
+.Jumbotron {
+
+}

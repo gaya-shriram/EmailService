@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Email-Message Board Service</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Include/Styles/default.css" type="text/css">
+        <script type="text/javascript" src="Include/js/Validate.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <div class="page-header">
+            <h1>Email-Message Board Service</h1>
+        </div>
+        <form action ="LoginServlet" method="post">
+            <table>
+                <tr>
+                    <td><b>User Name</b></td>
+                    <td><input type="text" name="username" id="username"/></td>
+
+                </tr>
+                <tr>
+                    <td><b>Password</b></td>
+                    <td><input type="password" name="password" id="password"/></td>
+
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Login" id="submit" onclick="validate();"/></td>
+                </tr>
+            </table>
+
+
+        </form>
+    </center>
+</body>
+</html>
